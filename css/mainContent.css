@@ -1,0 +1,10 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    width: 100vw;
+    height: 100vh;
+}
+.mainContent {
+    margin-left: 200px;
+    padding: 20px;
+}
