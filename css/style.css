@@ -1,3 +1,14 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    width: 100vw;
+    height: 100vh;
+}
+.mainContent {
+    margin-left: 200px;
+    padding: 20px;
+}
+
 .sidebar {
     height: 100vh;
     background-color: #555555;
@@ -43,8 +54,8 @@
 
 .sidebar a:hover {
     background-color: #e20000;
-    -webkit-animation: shadow-drop-2-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation: shadow-drop-2-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    -webkit-animation: shadow-drop-2-center 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: shadow-drop-2-center 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 .sidebar a:active {
@@ -93,6 +104,7 @@
     width: 120px;
     height: 40px;
     border: 0;
+    border-radius: 10px;
 }
 
 .btn:hover {
@@ -103,7 +115,7 @@
 }
 
 .btn:not(:hover) {
-    transition: 1s;
+    transition: .5s;
     color: #000000;
     width: 120px;
     height: 40px;
