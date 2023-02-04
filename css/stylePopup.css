@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    gap: 15px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f2f2f2;
+}
+
+.user, .password {
+    width: 200px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.btn {
+    width: 100px;
+    height: 30px;
+    background-color: #4caf50;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #3e8e41;
+}
+
+.btn:active {
+    background-color: #3e8e41;
+    transition: 0s;
+    background-color: #217724;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}

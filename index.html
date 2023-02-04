@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-    
+
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/mainContent.css">
     <link rel="stylesheet" href="css/style.css">
@@ -30,7 +30,20 @@
     <div class="mainContent">
         <h1>Bem-vindo ao meu site</h1>
         <p>Esse é um exemplo de layout com barra lateral.</p>
+
+        <div class="button">
+            <button class="btn" href="#" onclick="openPopup()">Abrir popup</button>
+        </div>
     </div>
+
+    <script>
+        function openPopup() {
+          window.open("popup.html", "popup", "width=400, height=400");
+        }
+      
+        document.querySelector(".btn").addEventListener("click", openPopup);
+      </script>
+      
 </body>
 
 </html>
