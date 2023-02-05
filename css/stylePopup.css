@@ -19,9 +19,16 @@
     font-size: 18px;
 }
 
+.accountType {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .btn {
     border: 0;
-    width: 100px;
+    width: 200px;
     height: 30px;
     background-color: #4caf50;
     color: #fff;
@@ -39,6 +46,7 @@
     background-color: #3e8e41;
     transition: 0s;
     background-color: #217724;
+    box-shadow: 1px 1px 3px black;
 }
 
 h1 {
