@@ -1,5 +1,5 @@
 function openPopup() {
-    window.open("popup.html", "popup", "width=400, height=400");
+    window.location.replace("popup.html")
 }
 
-document.querySelector(".btn").addEventListener("click", openPopup);
+document.querySelector(".btn").addEventListener("click", openPopup)
