@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,15 +8,47 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="./css/MainPage.css">
 
-    <link rel="stylesheet" href="./css/reset.css">
 
-    <title>Project</title>
+    <title>Pagina de Inicio</title>
 </head>
 <body>
-    <div>funcionando :)</div>
-    <button onclick="redirect()"></button>
+  <header id="header">
+    <a id="logo" href="#inspiracao">Logo</a>
+    <nav id="nav">
+        <button id="btn-mobile" aria-label="Abrir Menu" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+            <span id="hamburger">
 
-    <script src="./js/sell.js"></script>
+            </span>
+            </button>
+            <ul id="menu" role="menu">
+                <li><a href="#Sobre">Sobre</a></li>
+                <li><a target="_blank" href="shopDesignNiku.html">Novidade</a></li>
+                <li><a target="_blank" href="https://discord.gg/wYZwbZtN"  >Entre Em Nosso Discord</a></li>
+                <li><a href="#" onclick="alert('O Site será atualizado em breve com a ajuda de nossos Devs, mais informações no nosso Discord ');">Informações</a></li>
+
+                <li><a target="_blank" href="https://www.youtube.com/watch?v=_ITiwPMUzho">Músicas</a></li>
+                <li><a href="index.html" target="_blank">Voltar Ao Site De Login</a> </li>
+            </ul>
+            
+        </nav>
+    
+    
+    
+        
+    </header>
+    <h1 id="TextoWelcome">Bem Vindo Usuário</h1>
+    <nav>
+        <details id="Sobre">
+            <summary id="Sobre2">Sobre O Site</summary>
+            <p id="p1">Site Instável, ainda em Teste :D</p>
+            <p id="p1">Porém, você pode avançar para o proximo site <a href="shopDesignNiku.html" target="_blank"><button id="botaoAvancar">Clicando aqui</button></a></p>            
+            
+        </details>
+        </nav>
 </body>
+<script src="/js/MainPage.js"></script>
 </html>
