@@ -1,5 +1,3 @@
-function openPopup() {
+document.querySelector(".btn").addEventListener("click", ()=>{
     window.location.replace("popup.html")
-}
-
-document.querySelector(".btn").addEventListener("click", openPopup)
+})

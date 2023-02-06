@@ -110,6 +110,7 @@ body {
 .btn:hover {
     background-color: #73ff7f;
     color: #3a3a3a;
+    cursor: pointer;
     -webkit-animation: shadow-drop-2-center .5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation: shadow-drop-2-center .5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
