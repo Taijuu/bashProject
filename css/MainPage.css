@@ -293,7 +293,13 @@
   
   
   
-    #botaoAvancar {
-      font-style: unset;
-    }
+  button#botaoAvancar {
+    display: none;
+  }
+    
+#p1 a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(204, 6, 6);
+  cursor: pointer;
+}
     
