@@ -11,26 +11,39 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/stylePopup.css">
+    <link rel="stylesheet" href="./css/styleLogin.css">
 
-    <title>popup</title>
+    <title>Login</title>
 </head>
 
 <body>
-    <main class="container">
-        <div class="accountToDo">Login</div>
-        <input class="user" type="text" placeholder="user">
-        <div class="erro1"></div>
-        <input class="password" type="text" placeholder="password">
-        <div class="erro2"></div>
-        <button class="btn">Submit</button>
-        <div class="accountType">
-            <div class="question">Don't have an account?</div>
-            <a href="#" class="link">Create one</a>
+    <section class="wrapper">
+        <div class="form signup">
+            <header>Signup</header>
+            <form action="#">
+                <input type="text" placeholder="Full name" required />
+                <input type="text" placeholder="Email address" required />
+                <input type="password" placeholder="Password" required />
+                <div class="checkbox">
+                    <input type="checkbox" id="signupCheck" />
+                    <label for="signupCheck">I accept all terms & conditions</label>
+                </div>
+                <input type="submit" value="Signup" />
+            </form>
         </div>
 
-        <script src="js/popup.js"></script>
-    </main>
+        <div class="form login">
+            <header>Login</header>
+            <form action="#">
+                <input class="user" type="text" placeholder="Email address"  />
+                <input class="password" type="password" placeholder="Password" />
+                <div class="error"></div>
+                <a href="#">Forgot password?</a>
+                <input class="submit" type="submit" value="Login" />
+            </form>
+        </div>
+    </section>
+    <script src="js/login.js"></script>
 </body>
 
 </html>

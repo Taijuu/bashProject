@@ -18,7 +18,11 @@ nav {
   width: 100%;
   padding: 10px 0;
   z-index: 12;
+  visibility: hidden;
 }
+/* nav:hover {
+  visibility: visible;
+} */
 
 nav .menu {
   max-width: 1250px;
@@ -27,6 +31,7 @@ nav .menu {
   align-items: center;
   justify-content: space-between;
   padding: 0 20px;
+  visibility: visible;
 }
 
 .menu .logo a {
@@ -65,9 +70,9 @@ nav .menu {
 }
 
 .img {
-  background: url('img3.jpg')no-repeat;
+  background: url('img3.jpeg')no-repeat;
   width: 100%;
-  height: 100vh;
+  height: 120vh;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -135,4 +140,18 @@ nav .menu {
 .center .btns button:last-child {
   background: white;
   color: black;
+}
+
+body::-webkit-scrollbar {
+  width: 5px;               
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #b4b496;
+  border-radius: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(0, 0, 0);    /* color of the scroll thumb */
+  border-radius: 5px;   
 }
