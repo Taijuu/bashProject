@@ -18,7 +18,6 @@ nav {
   width: 100%;
   padding: 10px 0;
   z-index: 12;
-  visibility: hidden;
 }
 /* nav:hover {
   visibility: visible;
@@ -31,7 +30,6 @@ nav .menu {
   align-items: center;
   justify-content: space-between;
   padding: 0 20px;
-  visibility: visible;
 }
 
 .menu .logo a {
@@ -72,7 +70,7 @@ nav .menu {
 .img {
   background: url('img3.jpeg')no-repeat;
   width: 100%;
-  height: 120vh;
+  height: 100vh;
   background-size: cover;
   background-position: center;
   position: relative;
