@@ -1,3 +1,3 @@
 function redirect () {
-    window.location.replace("shopDesignNiku.html")
+    window.location.replace("sellPage.html")
 }
