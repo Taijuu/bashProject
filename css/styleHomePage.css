@@ -150,6 +150,6 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: rgb(0, 0, 0);    /* color of the scroll thumb */
+  background-color: rgb(0, 0, 0);    
   border-radius: 5px;   
 }
