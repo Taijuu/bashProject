@@ -20,28 +20,31 @@
     <section class="wrapper">
         <div class="form signup">
             <header>Signup</header>
-            <form action="#">
-                <input type="text" placeholder="Full name" required />
-                <input type="text" placeholder="Email address" required />
-                <input type="password" placeholder="Password" required />
+            <form id="formRegister" action="#">
+                <input type="text" placeholder="Full name" />
+                <input type="text" placeholder="Email address" />
+                <input type="password" placeholder="Password" />
                 <div class="checkbox">
                     <input type="checkbox" id="signupCheck" />
                     <label for="signupCheck">I accept all terms & conditions</label>
                 </div>
                 <input type="submit" value="Signup" />
+                <input id="Home" type="submit" value="Back To Menu" onclick="document.querySelector('#formRegister').action = 'index.html'" />
             </form>
         </div>
 
+
         <div class="form login">
             <header>Login</header>
-            <form id="forms" action="#">
-                <input class="user" type="text" placeholder="Email address"  />
+            <form id="formLogin" action="#">
+                <input class="user" type="text" placeholder="Email address" />
                 <input class="password" type="password" placeholder="Password" />
                 <div class="error"></div>
-                <a href="#">Forgot password?</a>
+                <a href="/PasswordReset.html">Forgot password?</a>
                 <input class="submit" type="submit" value="Login" />
             </form>
         </div>
+
     </section>
     <script src="js/login.js"></script>
 </body>
